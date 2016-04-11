@@ -12,10 +12,17 @@ public class SimpleCalculatorTest {
 		calc.add(10, 20);
 		assertEquals(30,calc.getResult());
 		}
+	@Test
 	public void testsub() {
 		SimpleCalculator calc = new SimpleCalculator();
 		calc.sub(10, 20);
 		assertEquals(-10,calc.getResult());
+		}
+	@Test
+	public void testDiv() {
+		SimpleCalculator calc = new SimpleCalculator();
+		calc.div(100, 20);
+		assertEquals(5,calc.getResult());
 		}
 	
 	
