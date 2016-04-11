@@ -8,17 +8,16 @@ public class SimpleCalculator {
 	public void sub(int x, int y){
 		result = x-y;
 	}
-
 	public void multi(int x, int y){
 		result = x*y;
 	}
 	public void div(int x, int y){
+
 		if(y!=0)//분모가 0인경우
 		result = x/y;
-		else System.out.println("분모가 0");
+	
 	}
 	public int getResult(){
 		return result;
 	}
-
 }
